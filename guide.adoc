@@ -1,0 +1,14 @@
+== Rust Language
+Rus is a language that compiles either to a machine code or web assembly (runs on browser)
+
+=== What can you build with rust ?
+ - Web servers
+ - commandline interfaces 
+ - Native desktop applications
+ - performance intensive libraries 
+ - Operating systems 
+
+=== Why use rust?
+1. speed 
+2. performance 
+3. going real fast 
