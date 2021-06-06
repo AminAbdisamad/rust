@@ -1,28 +1,31 @@
 mod tuple;
-
-
+mod structs;
+mod arrays;
+mod practice_2;
 fn main (){
-    let greeting = "Hello there";
-    let name = "Hassan";
+   
     // String Interpolation
     // 1. printlin! 2. format! 3. panic!
-    println!("{}, {}", greeting, name);
-    format!("{}, {}", greeting,name);
 
-    let _server_message = "Server is down";
-    // panic!("Its happening {} ", server_message);
-    println!("This will NOT run");
+    // tuple::tuple();
+    // structs::structs();
+    // arrays::arrays();
 
-    let result = multiply(2.1, 7.9);
-    println!("Result is {}", result);
-
-    tuple::tuple();
-
-
+    // Exercises
+    // practice_2::main();
+    let is_test:bool = testme(true);
+    println!("value {}",is_test);
+   
 
 }
 
-fn multiply(x:f64, y:f64)->f64{
+fn testme(is_test:bool)->bool{
+    if is_test{
+    return is_test
+    }
+    return is_test
+}
+fn _multiply(x:f64, y:f64)->f64{
     let name = "hassan";
     if name.starts_with('h'){
         println!("{} starts with (h) ",name)
