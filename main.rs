@@ -1,3 +1,6 @@
+mod tuple;
+
+
 fn main (){
     let greeting = "Hello there";
     let name = "Hassan";
@@ -11,7 +14,9 @@ fn main (){
     println!("This will NOT run");
 
     let result = multiply(2.1, 7.9);
-    println!("Result is {}", result)
+    println!("Result is {}", result);
+
+    tuple::tuple();
 
 
 
@@ -26,3 +31,4 @@ fn multiply(x:f64, y:f64)->f64{
     }
 return x*y;
 }
+

@@ -13,6 +13,8 @@ Rus is a language that compiles either to a machine code or web assembly (runs o
 2. performance 
 3. going real fast 
 
+NOTE: When declaring rust variable `let` is used. 'let' is both 'constant' and 'immutable'. `let mut` is used to declare mutable variables. `let mut` is neither `constant` nor `immutable`
+
 === String Interpolation
 [source,rust]
 ----
