@@ -1,7 +1,8 @@
 mod tuple;
 mod structs;
 mod arrays;
-mod practice_2;
+mod practice_3;
+mod enums;
 fn main (){
    
     // String Interpolation
@@ -12,19 +13,14 @@ fn main (){
     // arrays::arrays();
 
     // Exercises
-    // practice_2::main();
-    let is_test:bool = testme(true);
-    println!("value {}",is_test);
+    practice_3::main();
+    enums::main();
+   
    
 
 }
 
-fn testme(is_test:bool)->bool{
-    if is_test{
-    return is_test
-    }
-    return is_test
-}
+
 fn _multiply(x:f64, y:f64)->f64{
     let name = "hassan";
     if name.starts_with('h'){
