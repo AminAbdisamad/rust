@@ -25,7 +25,7 @@ fn testme(is_test:bool)->bool{
     }
     return is_test
 }
-fn _multiply(x:f64, y:f64)->f64{
+fn multiply(x:f64, y:f64)->f64{
     let name = "hassan";
     if name.starts_with('h'){
         println!("{} starts with (h) ",name)
