@@ -34,5 +34,6 @@ let _unit:() = (); // its a tuple holding no information
 fn _main()->(){
 
 }
+//     TUPLE and Structs
 }
 
