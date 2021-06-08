@@ -15,6 +15,6 @@ pub fn arrays(){
     // Looping through years array
     for year in years.iter(){
         println!("Next Year {}", year+1);
-    }
+    }//
     
 }
